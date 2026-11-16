@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #e4e5f8;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #afa51b;
+    text-align: center;
+}
+h2 {
+    color: #09b3d1;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.star {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 20px auto;
+
+    animation: twinkle 1s infinite alternate;
+}
+@keyframes twinkle {
+    from{
+        background-color : white;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.factcard {
+    background-image: linear-gradient(to bottom right, #ffcc00, #ff9900);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.footer {
+    text-align: center;
+    color: #999;
+}
+.banner {
+    background-image: linear-gradient(to bottom right, #1e268b, #0d1b5e);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
